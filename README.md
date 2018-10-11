@@ -37,7 +37,7 @@ Execute below command to get your adfs client information.
 Process:
 you will interact with your ADFS server to get below few things.    
 Access code: one time token that uses to get your access token. it's invalid once you gain the token.   
-Access token: the secure token that lets you pass the secure check. 
+Access token: the secure token that lets you pass the secure check.         
 Refresh token: the token to renew your access token if it's expired.    
 
 1. Send a get request to your ADFS server to get access code:
