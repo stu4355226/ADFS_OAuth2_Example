@@ -1,4 +1,4 @@
-# This is to demonstrate how to get the access token from ADFS server through Oauth2 authentication.
+# This is to demonstrate how to get the access token through from ADFS 3.0 with Oauth2 authentication.
 
 In order to get authenticated, you need to understand below terms that are necessary to get by pass the authorization server and get the secure token and use the token to bypass your authentication checks.
 
@@ -35,10 +35,10 @@ Execute below command to get your adfs client information.
 
 
 Process:
-you will interact with your ADFS server to get below few things
-Access code: one time token that uses to get your access token. it's invalid once you gain the token.
-Access token: the secure token that lets you pass the secure check.
-Refresh token: the token to renew your access token if it's expired.
+you will interact with your ADFS server to get below few things.    
+Access code: one time token that uses to get your access token. it's invalid once you gain the token.   
+Access token: the secure token that lets you pass the secure check. 
+Refresh token: the token to renew your access token if it's expired.    
 
 1. Send a get request to your ADFS server to get access code:
 
