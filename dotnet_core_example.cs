@@ -43,7 +43,7 @@ namespace test
             return client.Execute(request); ;
         }
 
-        //if you are not getting the access code, please use debug here and verify your response.
+        //if you are not getting the access code, please debug here and verify your response.
         public static string GetAccessCode(this Credential credential)
         {
             string result = string.Empty;
