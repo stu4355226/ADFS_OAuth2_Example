@@ -1,4 +1,4 @@
-#This is to demonstrate how to get the access token through from ADFS 3.0 with Oauth2 authentication.
+# This is to demonstrate how to get the access token from ADFS server through Oauth2 authentication.
 
 In order to get authenticated, you need to understand below terms that are necessary to get by pass the authorization server and get the secure token and use the token to bypass your authentication checks.
 
