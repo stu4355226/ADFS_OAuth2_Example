@@ -1,24 +1,21 @@
-# ADFS_OAuth2_Example
-An example about how to get access token through Oauth2 to ADFS server through HTTP calls.
-
 #This is to demonstrate how to get the access token through from ADFS 3.0 with Oauth2 authentication.
 
 In order to get authenticated, you need to understand below terms that are necessary to get by pass the authorization server and get the secure token and use the token to bypass your authentication checks.
 
-##System relationship.
+## System relationship.
 
-#####The Third party application: 
+##### The Third party application: 
 Your application that is trying to access your resource server with secure token.
 
-#####The resource server: 
+##### The resource server: 
 It's the server/website endpoint you want to access/browse.
 
-#####The authorization server: 
+##### The authorization server: 
 It's your ADFS server endpoint to get the secure token.
 
 Your request will be sent from your third party application, and the gold is to get the data from your resource server. However, you need to get the secure token and attached it to request header in order to bypass the secure check.
 
-##Necessary values:
+## Necessary values:
 
 Redirect URIs
 Client Id
