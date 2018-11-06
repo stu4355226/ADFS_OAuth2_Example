@@ -56,7 +56,7 @@ if ADFS server redirect you to login page for your crendetional. you need to cha
         UserName : your AD account
         Password : your AD PW
 
-2. ADFS will redriect you to the REDIRECT_URI endpoint with below querystring.
+2. Since you're chelleging ADFS server with FormsAuthentication. First, ADFS will redriect you back to the orgianl url you are chelleging with your session and Next Url you need to be redirected. Please save your session cookie and attach it with a Get request to the Url you get from ADFS server. Then you get the redirect url with the access code like blow link:
 
 
         https://REDIRECT_URI?code=ACCESS_CODE_HERE
